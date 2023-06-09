@@ -47,7 +47,7 @@ Detalhes do Código
 
 O código usa a estrutura do Scrapy para criar uma aranha (spider) de rastreamento personalizada chamada CrawlingSpider. A aranha é configurada para extrair informações do site da ESPN relacionado à NBA.
 
-A função parse_item é responsável por extrair os dados relevantes da página. Neste caso, ela utiliza seletores CSS e XPath para localizar e extrair o nome do jogador, sobrenome e quantidade de vitórias.
+A função parse_item é responsável por extrair os dados relevantes da página. Neste caso, ela utiliza seletores CSS e XPath para localizar e extrair o nome do time e quantidade de vitórias.
 
 A função print_info é chamada após o processo de extração ser concluído. Ela recebe os resultados coletados pela aranha e os grava no arquivo "output.txt", no formato desejado.
 
